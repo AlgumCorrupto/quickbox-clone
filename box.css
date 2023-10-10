@@ -5,12 +5,14 @@ element {
     text-align: center;
     color: aliceblue;
 }
-
 div.quickbox {
-    border: 1px solid #303038;
     background: #27272e;
-    padding-left: 7px;
-    padding-right: 7px;
+    border: 1px solid #303038;
+    border-radius: 10px;
+}
+div.quickboxbody {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 div.quickboxhead {
     border-bottom: 1px solid #303038;
