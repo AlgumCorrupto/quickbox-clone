@@ -1,0 +1,27 @@
+- Cabeçalho:
+  nome: Paulo Artur Pinheiro Viana Villaça
+  turma: inf31l
+- SQL Injection:
+  definição: Injeção de código SQL na aplicação
+  como evitar: sanitizar os inputs de texto de sua página web
+- XSS:
+  definição: Injeção de código malicioso javascript em sua aplicação
+  como evitar: sanitizar os inputs de texto de sua página web
+- CSRF:
+  definição: Envio de Requests maliciosos do atacante para o servidor
+  como evitar: Criação de Allow/Deny lists das fontes de requisições
+- MAA:
+  definição: Tráfego do site inflacionado, seja por bots ou fuzz
+  como evitar: implementar verificação de bots no site e bloqueadores de IPs
+- Session Hijacking:
+  definição: Roubo de sessão de usuários
+  como evitar: Fazer uso de encripção dos IDs de sessão e HTTPS
+- Exposição de dados Sensíveis:
+  como evitar: Fazer uso de HTTPS, implementação de htaccess, encripção, etc...
+- Content Security Policy: 
+  definição: As políticas de segurança de uma empresa
+- Sobresource Integrity: 
+  definiçãp: é um recurso de segurança oferecido por padrão pelo
+  browser que permite eles verificarem os recursos que eles buscam e verificar
+  sua integridade. 
+
